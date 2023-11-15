@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 50px 100px;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+}
+
+form input,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 5px;
+}
+
+form button {
+    background-color: #182c61;
+    color: #fff;
+    font: bold;
+}
